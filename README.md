@@ -61,7 +61,7 @@ The emissions are calculated based on the type of vehicle selected. Emission fac
 - **Diesel Vehicle**: 150 grams of CO2 per km.
 
 ### Formula for Emissions:
-\[ \text{Emissions} = \text{Distance (km)} \times \text{Emission Factor (grams per km)} \]
+\[ {Emissions} = {Distance (km)} *{Emission Factor (grams per km)} \]
 
 - The application converts the distance provided by the OSRM API (in meters) to kilometers and multiplies it by the corresponding emission factor for the vehicle type.
 
