@@ -3,6 +3,7 @@
 This project provides an interactive web application that optimizes routes based on various factors such as emissions and weather conditions. It helps users visualize the optimal routes for different vehicle types and view environmental data like emissions and weather forecasts at both the origin and destination.
 
 The application uses real-time data for route calculations, emissions estimations, and weather information, helping individuals or organizations make informed decisions on their travel. The platform is powered by **Streamlit**, **Folium**, and other APIs, making it highly interactive and capable of processing various real-time data points.
+![image](https://github.com/user-attachments/assets/435eac79-62cf-40c6-9171-04da274b1289)
 
 ## Table of Contents
 
