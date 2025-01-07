@@ -6,9 +6,8 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 from streamlit_folium import st_folium
 
-# Constants for APIs (use environment variables for better security)
 OSRM_API_URL = "http://router.project-osrm.org/route/v1/driving"
-TOMTOM_API_KEY = os.getenv("TOMTOM_API_KEY")  # Store your API keys securely
+TOMTOM_API_KEY = os.getenv("TOMTOM_API_KEY") 
 AQICN_API_KEY = os.getenv("AQICN_API_KEY")
 OPENWEATHERMAP_API_KEY = os.getenv("OPENWEATHERMAP_API_KEY")
 
@@ -158,7 +157,6 @@ def generate_route_and_emissions():
         }
 
 # Display results
-# Display enhanced results with better visuals
 def display_results():
     if st.session_state["results"]:
         # Fetch results from session state
@@ -196,7 +194,7 @@ def display_results():
 
         fig_weather = go.Figure()
 
-        # Add Temperature
+        # Temperature
         fig_weather.add_trace(
             go.Bar(
                 name="Temperature (°C)",
@@ -208,7 +206,7 @@ def display_results():
             )
         )
 
-        # Add Humidity
+        # Humidity
         fig_weather.add_trace(
             go.Scatter(
                 name="Humidity (%)",
