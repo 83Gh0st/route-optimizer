@@ -97,6 +97,7 @@ http://api.openweathermap.org/data/2.5/weather?lat={latitude}&lon={longitude}&ap
 - The API provides temperature, humidity, and description for each location.
 
 ---
+![image](https://github.com/user-attachments/assets/9b8c1e72-a948-485c-b2c4-d144939f48c6)
 
 ## Route Calculation Process
 
